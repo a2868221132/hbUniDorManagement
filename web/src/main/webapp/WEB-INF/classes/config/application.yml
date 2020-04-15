@@ -39,7 +39,7 @@ jdbc:
   driver: com.mysql.jdbc.Driver
   url: jdbc:mysql://127.0.0.1:3307/hbUniDorManagement?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
   username: root
-  password: root
+  password: f118f79491dc6b493b0144ff61c921b5
   testSql: SELECT 1
 
 #  # Oracle 数据库配置
@@ -367,7 +367,7 @@ shiro:
 
   # 记住我密钥设置，为空则自动生成一个新密钥，也可以通过 com.jeesite.test.RememberMeKeyGen 生成
   rememberMe:
-    secretKey: ~
+    secretKey: W9gY+jeO3BIM14X58L+ZhQ==
 
 #  # 指定获取客户端IP的Header名称，防止IP伪造。指定为空，则使用原生方法获取IP。
 #  remoteAddrHeaderName: X-Forwarded-For
